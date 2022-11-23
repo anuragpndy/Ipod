@@ -1,0 +1,24 @@
+/* music container */
+.music{
+    width: 270px;
+    height: 100%;
+    background-color: #e8e7e7;
+    overflow-y: scroll;
+}
+
+.music::-webkit-scrollbar{
+    display: none;
+}
+.music ul{
+   text-align: center;
+}
+
+/* heading for music */
+h3{
+    margin: 1px;
+}
+
+/* list element */
+.music #song1{
+    padding: 8px 0px;
+}

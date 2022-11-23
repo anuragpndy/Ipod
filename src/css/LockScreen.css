@@ -1,0 +1,19 @@
+.lock-screen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 235px;
+  font-size: 100px;
+}
+
+/* Bottom div  lockscreen */
+.bottom-div{
+  width: 270px;
+  height: 24px;
+  background-color: #ee8019;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}

@@ -1,0 +1,43 @@
+/* main navbar container */
+.bar-container{
+    display: flex;
+    width: 270px;
+    height: 22px;
+    /* min-height: 20px; */
+    background-color: #ededed;
+}
+
+
+.heading{
+    margin: 1px 5px;
+    padding: 0px;
+    align-items: center;
+    display: flex;
+}
+
+.time{
+    margin: 0px;
+    padding: 0px;
+    margin: auto;
+}
+
+.battery{
+    width: 22px;
+    height: 20px;
+    margin: 1px;
+}
+
+.right-nav-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+
+.notification{
+    color: black;
+    text-align: center;
+    margin: auto;
+
+}
+

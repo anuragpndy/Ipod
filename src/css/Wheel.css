@@ -1,0 +1,71 @@
+/* wheel main container */
+.wheel-container{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top: auto;
+    margin-bottom: 20px;
+    display: flex;
+}
+/* wheel */
+.wheel{
+    cursor: pointer;
+    position: relative;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 4px black;
+    transition: all 0.4s;
+}
+/* hover wheel */
+.wheel:hover{
+    box-shadow: 0px 0px 9px black;
+}
+/* common props */
+.control{
+    color: rgb(210, 210, 210);
+    position: absolute;
+    transform: scale(1.2);
+    font-size: 21px;
+}
+
+/* menu */
+#menu{
+    left: 41%;
+    top:11%;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* forward */
+#forward{
+    right: 10%;
+    top: 45%;
+  
+}
+/* backward */
+#backward{
+    top: 45%;
+    left: 10%;
+}
+
+/* playpause */
+#play-pause{
+    bottom: 11%;
+    left: 38%;
+    width: 48px;
+    height: 20px;
+}
+
+/* center blank  */
+.blank{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    box-shadow: inset 0px 0px 3px 0px black;
+    cursor: pointer;
+}
